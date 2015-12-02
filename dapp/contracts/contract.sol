@@ -1,4 +1,5 @@
 import "std.sol";
+import "sortition.sol";
 
 contract Contract is named("Contract") {
     function Contract() {

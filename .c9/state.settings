@@ -1,0 +1,395 @@
+{
+    "collab": {
+        "panel": {
+            "chat": {
+                "@closed": false
+            },
+            "members": {
+                "@closed": false
+            },
+            "notifications": {
+                "@closed": true
+            }
+        }
+    },
+    "console": {
+        "@expanded": true,
+        "@height": 209,
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab7",
+                    "tab2",
+                    "tab1"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "",
+                    "className": [
+                        "tab1",
+                        "connecting"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "bash - \"86a95d520512\"",
+                        "tooltip": "bash - \"86a95d520512\"",
+                        "terminal": {
+                            "id": "devel_178",
+                            "cwd": "",
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab2",
+                    "path": "",
+                    "className": [
+                        "tab2"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {},
+                        "filter": true,
+                        "title": "Immediate (Javascript (browser))",
+                        "tooltip": "Immediate (Javascript (browser))",
+                        "immediate": {
+                            "type": "jsbrowser",
+                            "history": [],
+                            "pos": 0
+                        }
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "",
+                    "className": [
+                        "tab7",
+                        "connecting"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448996157219
+                        },
+                        "filter": true,
+                        "title": "dapp/contracts/vouchSafe.sol - Idle",
+                        "tooltip": "dapp/contracts/vouchSafe.sol - Idle",
+                        "output": {
+                            "id": "output505370",
+                            "width": 776,
+                            "height": 183,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "dapp/contracts/vouchSafe.sol",
+                                "debug": true,
+                                "name": ""
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@git": true,
+        "@plugins": true,
+        "@sdk": true
+    },
+    "ext": {
+        "counters": {
+            "@ace": 2,
+            "@acestatus": 1,
+            "@divider": 5,
+            "@document": 11,
+            "@form": 5,
+            "@immediate": 1,
+            "@menu": 8,
+            "@menuitem": 20,
+            "@pane": 3,
+            "@postmessage": 1,
+            "@preferences": 1,
+            "@preview": 1,
+            "@session": 11,
+            "@tab": 11,
+            "@undoManager": 11,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab10",
+            "tab7"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "collab",
+        "collab": {
+            "@enabled": "true",
+            "@name": "collab"
+        },
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "ethergit.ethereum.sandbox.panel": {
+            "@enabled": "true",
+            "@name": "ethergit.ethereum.sandbox.panel"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/dapp/contracts"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "/Terminology.md",
+            "meta": {
+                "accessList": [
+                    "tab10",
+                    "tab0",
+                    "tab8",
+                    "tab5",
+                    "tab6",
+                    "tab9",
+                    "tab4",
+                    "tab3"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "/dapp/contracts/sortition.sol",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448996157448
+                        },
+                        "filter": true,
+                        "title": "sortition.sol",
+                        "tooltip": "/dapp/contracts/sortition.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab4",
+                    "path": "/dapp/contracts/contract.sol",
+                    "className": [
+                        "tab4"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448987030709
+                        },
+                        "filter": true,
+                        "title": "contract.sol",
+                        "tooltip": "/dapp/contracts/contract.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab6",
+                    "path": "/dapp/contracts/std.sol",
+                    "className": [
+                        "tab6"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448910549759
+                        },
+                        "filter": true,
+                        "title": "std.sol",
+                        "tooltip": "/dapp/contracts/std.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab9",
+                    "path": "/dapp/contracts/vouchSafe.sol",
+                    "className": [
+                        "tab9"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448968564170
+                        },
+                        "filter": true,
+                        "title": "vouchSafe.sol",
+                        "tooltip": "/dapp/contracts/vouchSafe.sol",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab5",
+                    "path": "/dapp/contracts/readme.txt",
+                    "className": [
+                        "tab5"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1448989046897
+                        },
+                        "filter": true,
+                        "title": "readme.txt",
+                        "tooltip": "/dapp/contracts/readme.txt",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "/dapp/contracts/Untitled1",
+                    "className": [
+                        "tab8",
+                        "changed"
+                    ],
+                    "document": {
+                        "changed": true,
+                        "meta": {
+                            "timestamp": 1449003588992,
+                            "newfile": true
+                        },
+                        "filter": true,
+                        "title": "Untitled1",
+                        "tooltip": "/dapp/contracts/Untitled1",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "/Road Map.md",
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1449009137042
+                        },
+                        "filter": true,
+                        "title": "Road Map.md",
+                        "tooltip": "/Road Map.md",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab10",
+                    "path": "/Terminology.md",
+                    "className": [
+                        "tab10",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1449010595199
+                        },
+                        "filter": true,
+                        "title": "Terminology.md",
+                        "tooltip": "/Terminology.md",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/dapp"
+        ]
+    }
+}
