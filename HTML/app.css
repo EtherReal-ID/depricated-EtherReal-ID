@@ -1,0 +1,96 @@
+/*Un-comment to track div borders and find elements during dev*/
+/*DIV {border: 1px solid black;}
+/**/
+
+/* HTML declarations go here */
+
+body {
+  
+  font-family: sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to top, #666666, #202020 100%);
+  background-attachment: fixed;
+  }
+  
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+header {
+  background: linear-gradient(to left, #2F8BB7, #048C42 );
+  height: 65px;
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+}
+
+P {
+  margin: 15px;
+}
+/*
+/*
+/*
+/*
+/*
+/* Class declarations go here */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+.do{
+  border: solid red 1px;
+}
+.etherreal{
+  padding-top: 15px;
+  color: white;
+}
+.points{
+  float: right;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: green;
+  text-align: center;
+}
+.points P{
+    padding-top: 5px;
+}
+.step{
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  
+}
+/*
+/*
+/*
+/*
+/*
+/*
+/* ID declarations go here */
+
+#example{
+  background:transparent;
+}
