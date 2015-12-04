@@ -1,12 +1,12 @@
 import "_std.sol";
 
-/* etherreal stub */
-contract etherreal is abstract {}
+/* vouchsafe stub */
+contract vouchsafe is abstract {}
 
 /* Generic contract to set owner */
-contract etherrealOwner is owned, etherreal {
+contract vouchsafeOwner is owned, vouchsafe {
   address owner;
-  function etherrealOwner() {
+  function vouchsafeOwner() {
     
     /* contract owner is initial message sender */
     owner = msg.sender;
@@ -19,9 +19,9 @@ contract etherrealOwner is owned, etherreal {
 }
 
 /* Generic contract to allow contract destruction */
-contract etherrealKiller is mortal, etherreal, etherrealOwner {
+contract vouchsafeKiller is mortal, vouchsafe, vouchsafeOwner {
   address killer;
-  function etherrealKiller() {
+  function vouchsafeKiller() {
     
     /* verify only owner can kill contracts */
     killer = msg.sender;

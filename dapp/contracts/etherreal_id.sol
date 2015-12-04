@@ -1,8 +1,8 @@
-import "std.sol";
+import "_std.sol";
 import "etherreal.sol";
 
-/* Etherreal identity contract */
-contract EtherrealId is Etherreal, EtherrealOwner, EtherrealKiller {
+/* etherreal identity contract */
+contract etherrealId is etherreal, etherrealOwner, etherrealKiller {
   
   /* Identity data */
   struct Id {
@@ -16,12 +16,12 @@ contract EtherrealId is Etherreal, EtherrealOwner, EtherrealKiller {
   
   Id id;
   
-  /* init an Etherreal ID */
-  function EtherrealId(bytes first, bytes last, bytes nick, address[] subs) {
+  /* init an etherreal ID */
+  function etherrealId(bytes first, bytes last, bytes nick, address[] subs) {
     this.create(first, last, nick, subs);
   }
   
-  /* create an Etherreal ID */
+  /* create an etherreal ID */
   function create(bytes first, bytes last, bytes nick, address[] subs) {
     id.nameFirst = first;
     id.nameLast = last;
