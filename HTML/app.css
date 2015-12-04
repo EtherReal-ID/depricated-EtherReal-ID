@@ -1,17 +1,17 @@
 /*Un-comment to track div borders and find elements during dev*/
-/*DIV {border: 1px solid black;}
+A , DIV {border: 1px solid black;}
 /**/
 
 /* HTML declarations go here */
 
 body {
-  
+
   font-family: sans-serif;
   background-color: #315481;
   background-image: linear-gradient(to top, #666666, #202020 100%);
   background-attachment: fixed;
   }
-  
+
 form {
   margin-top: 10px;
   margin-bottom: -10px;
@@ -42,9 +42,7 @@ li {
   border-bottom: #eee solid 1px;
 }
 
-P {
-  margin: 15px;
-}
+
 /*
 /*
 /*
@@ -60,10 +58,17 @@ P {
 }
 .do{
   border: solid red 1px;
+  height:80px;
 }
 .etherreal{
   padding-top: 15px;
   color: white;
+}
+.etherreal P {
+  margin: 15px;
+}
+float.right{
+  Float:right
 }
 .points{
   float: right;
@@ -78,11 +83,21 @@ P {
 }
 .step{
   float: left;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: green;
+
 }
+.step P{
+ text-align: center;
+ margin-top: 5px;
+
+}
+.tip P{
+}
+
+nul { border: solid red 1px}
 /*
 /*
 /*
