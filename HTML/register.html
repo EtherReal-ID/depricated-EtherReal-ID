@@ -6,9 +6,25 @@
     <title>ID:EtherReal- Register</title>
     <!--link rel="stylesheet" href="styles/bootstrap.min.css"/-->
     <link rel="stylesheet" href="styles/main.css"/>
+
+    <script type="text/javascript" src="../node_modules/web3/dist/web3.js"></script>
+    <script type="text/javascript">
+        var web3;
+        function onload() {
+            var Web3 = require('web3');
+            var web3 = new Web3();
+            var providerUrl = 'http://etherreal.on.ether.camp:8555/sandbox/701515cd6a57dbfe22f49f4bf4ff29de64a830b5'; // <<< your sandbox here !!
+            web3.setProvider(new web3.providers.HttpProvider(providerUrl));
+            web3.eth.defaultAccount = "0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826";
+            
+            // at this point you have a web3 object
+        }
+   </script>
+   
+ 
 </head>
 
-<body class="register-page">
+<body class="register-page" onload="onload()">
 
 <div class="phone-wrapper">
     <div class="container-phone">
