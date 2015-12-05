@@ -7,10 +7,10 @@ N.B.   !!!  This code is just a starting point.  stolen from the ether.camp team
 THIS IS JUST A multi sig wallet. 
 It does not yet perform any of the functionality that VouchSafe requires other than handeling multi sig.
 
-Vouch safe is (will be) a zero knowledge proof "multi sig" storage system 
-which holds inforation you want to share but still control
-Each entry in the VouchSafe is signed by other etherre.al users so that
-those who accss the data can "know" that it is etherre.al information.
+//Vouch safe is (will be) a zero knowledge proof "multi sig" storage system 
+//which holds inforation you want to share but still control
+//Each entry in the VouchSafe is signed by other etherre.al users so that
+//those who accss the data can "know" that it is etherre.al information.
 
 
 
