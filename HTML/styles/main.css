@@ -730,3 +730,42 @@ header .right-header-block {
   height: 35px;
   border: 2px solid #999;
 }
+
+@media (max-width: 479px) {
+  .about-page {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.about-page .about_description {
+  float: left;
+  background: #ddd;
+}
+
+@media (max-width: 1199px) {
+  .about-page .about_description {
+    width: 800px;
+    padding: 20px 60px 20px 120px;
+  }
+}
+
+@media (max-width: 479px) {
+  .about-page .about_description {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.about-page .about_description .border {
+  border: 0;
+}
+
+.about-page .about_description b, .about-page .about_description strong {
+  font-weight: 400;
+}
+
+.about-page .about_description h1 {
+  color: #329063;
+  padding: 70px 0 30px 0;
+}
