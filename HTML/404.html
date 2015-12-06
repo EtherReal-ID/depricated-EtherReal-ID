@@ -11,18 +11,7 @@
     
     <script type="text/javascript" src="../node_modules/web3/dist/web3.js"></script>
     
-    <script type="text/javascript">
-        var web3;
-        function onload() {
-            var Web3 = require('web3');
-            var web3 = new Web3();
-            var providerUrl = 'http://etherreal.on.ether.camp:8555/sandbox/701515cd6a57dbfe22f49f4bf4ff29de64a830b5'; // <<< your sandbox here !!
-            web3.setProvider(new web3.providers.HttpProvider(providerUrl));
-            web3.eth.defaultAccount = "0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826";
-            
-            // at this point you have a web3 object
-        }
-   </script>
+
    
  
 </head>
@@ -34,7 +23,7 @@
         <div class="content">
             <header>
                 <div class="logo"></div>
-                <a class="right-header-block colected-points" href="#"> 50</a>
+                <a class="right-header-block colected-points" href="#"> -404</a>
             </header>
             <div class="page-content-wrapper hosting-event">
                 <div class="hosting-header">
@@ -76,14 +65,16 @@
 
 <section class="description">
     <h1><strong>404 ERROR</strong></h1>
-    <div class="border"><p>We are very sorry!</p>  
+    <div class="border status-info"><p>We are very sorry!</p>  
     <br/>
     <p>In our haset we left things in a mess!</p>
     <br/>
-    <p>with luck you will not be reading this but if yu are please use your browser's back button.</p></div>
+    <p>With luck you will not be reading this but if you are<br/> please use the back button.
+    <br/>Or Click back to the index page bellow. </p></div>
     <br/>
     <br/>
     <br/>
+    <script>document.write('<a href="' + document.referrer + '"  class="previous-next" >PREVIOUS</a>');</script>
     <a href="index.html" class="previous-next">INDEX</a>
     
     

@@ -38,6 +38,7 @@ ul {
 
 .btn {
   font-size: 14px;
+  text-transform: uppercase;
   padding: 10px 30px;
   border: 2px solid #329063;
   border-radius: 0;
@@ -75,6 +76,7 @@ ul {
     margin: 0;
     border-radius: 0;
     border: 0;
+    width: 100%;
   }
 }
 
@@ -93,26 +95,35 @@ ul {
   .container-phone .content {
     width: 100%;
     margin: 0px;
+    min-height: calc(100vh - 20px);
   }
 }
 
-.container-phone .content a:hover, .container-phone .content a:focus {
-  color: #329063;
-  text-decoration: none;
+.description {
+  margin-top: 60px;
+  float: left;
+  width: 400px;
+  max-width: 100%;
+  min-height: 490px;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.description {
-  margin-top: 100px;
-  float: left;
-  width: 320px;
-  max-width: 100%;
-  margin-left: 30px;
-  font-size: 15px;
-  font-weight: 400;
+.description hr {
+  border-top: 2px solid #a8a8a8;
 }
 
 .description strong {
   color: #555;
+}
+
+@media (max-width: 479px) {
+  .description {
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px;
+  }
 }
 
 .description h1 {
@@ -142,6 +153,11 @@ ul {
   min-height: 60%;
 }
 
+.page-content-wrapper a:hover, .page-content-wrapper a:focus {
+  color: #329063;
+  text-decoration: none;
+}
+
 .page-content-wrapper h2 {
   color: #329063;
   font-size: 22px;
@@ -154,6 +170,12 @@ ul {
   font-size: 14px;
   height: 38px;
   padding: 10px;
+}
+
+.page-content-wrapper .full-block {
+  display: block;
+  width: 100%;
+  float: left;
 }
 
 header {
@@ -651,4 +673,60 @@ header .right-header-block {
   width: 40px;
   height: 40px;
   margin: -3px 0 0px 10px;
+}
+
+.form-block .line-block {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  min-height: 40px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.form-block .line-block:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.form-block .line-block h4 {
+  font-size: 13px;
+  float: left;
+  padding: 2px;
+  font-weight: 400;
+  min-width: 60px;
+}
+
+.form-block .line-block .counter-value {
+  float: right;
+  color: #329063;
+  padding: 3px 2px;
+  font-weight: 400;
+}
+
+.form-block .line-block .radio-btn {
+  float: left;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  position: relative;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.form-block .line-block .radio-btn.marked:after {
+  content: " ";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #329063;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.form-block .line-block .like-input {
+  float: left;
+  width: 100%;
+  height: 35px;
+  border: 2px solid #999;
 }
